@@ -32,7 +32,7 @@ class TripViewController: UIViewController {
             destination: destination,
             durationInDays: Int(daysStepper.value))
 
-        // TODO: Add to list
+        PresentService.shared.add(present: trip)
 
         performSegue(withIdentifier: "tripToListUnwind", sender: nil)
     }

@@ -21,7 +21,7 @@ class ToyViewController: UIViewController {
 
         let toy = Toy(name: name, brand: brand)
 
-        ToyService.shared.add(toy: toy)
+        PresentService.shared.add(present: toy)
 
         performSegue(withIdentifier: "toyToListUnwind", sender: nil)
     }

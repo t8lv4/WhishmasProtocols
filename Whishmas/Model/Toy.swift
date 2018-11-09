@@ -12,3 +12,15 @@ struct Toy {
     var name = ""
     var brand = ""
 }
+
+extension Toy: Present {
+    var cellTitle: String {
+        return name
+    }
+
+    var description: String {
+        return brand
+    }
+
+    
+}

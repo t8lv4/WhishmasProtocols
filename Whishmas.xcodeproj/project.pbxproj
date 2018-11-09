@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9074B57F2195C8AC00250BF5 /* Present.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9074B57E2195C8AC00250BF5 /* Present.swift */; };
 		C98BCA5F20A0389F00892C28 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98BCA5E20A0389F00892C28 /* AppDelegate.swift */; };
 		C98BCA6420A0389F00892C28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C98BCA6220A0389F00892C28 /* Main.storyboard */; };
 		C98BCA6920A038A100892C28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C98BCA6720A038A100892C28 /* LaunchScreen.storyboard */; };
@@ -18,11 +19,12 @@
 		C98BCA8020A041B400892C28 /* Trip.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98BCA7F20A041B400892C28 /* Trip.swift */; };
 		C98BCA8220A041C500892C28 /* Toy.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98BCA8120A041C500892C28 /* Toy.swift */; };
 		C98BCA8420A041EC00892C28 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98BCA8320A041EC00892C28 /* Book.swift */; };
-		C98BCA8620A041F900892C28 /* ToyService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98BCA8520A041F900892C28 /* ToyService.swift */; };
+		C98BCA8620A041F900892C28 /* PresentService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98BCA8520A041F900892C28 /* PresentService.swift */; };
 		C98BCA8A20A0484A00892C28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C98BCA8920A0484A00892C28 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9074B57E2195C8AC00250BF5 /* Present.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Present.swift; sourceTree = "<group>"; };
 		C98BCA5B20A0389F00892C28 /* Whishmas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Whishmas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C98BCA5E20A0389F00892C28 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C98BCA6320A0389F00892C28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -36,7 +38,7 @@
 		C98BCA7F20A041B400892C28 /* Trip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trip.swift; sourceTree = "<group>"; };
 		C98BCA8120A041C500892C28 /* Toy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toy.swift; sourceTree = "<group>"; };
 		C98BCA8320A041EC00892C28 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
-		C98BCA8520A041F900892C28 /* ToyService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToyService.swift; sourceTree = "<group>"; };
+		C98BCA8520A041F900892C28 /* PresentService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentService.swift; sourceTree = "<group>"; };
 		C98BCA8920A0484A00892C28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -103,7 +105,8 @@
 				C98BCA7F20A041B400892C28 /* Trip.swift */,
 				C98BCA8320A041EC00892C28 /* Book.swift */,
 				C98BCA8120A041C500892C28 /* Toy.swift */,
-				C98BCA8520A041F900892C28 /* ToyService.swift */,
+				C98BCA8520A041F900892C28 /* PresentService.swift */,
+				9074B57E2195C8AC00250BF5 /* Present.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -194,10 +197,11 @@
 			files = (
 				C98BCA8220A041C500892C28 /* Toy.swift in Sources */,
 				C98BCA7620A0415E00892C28 /* ListViewController.swift in Sources */,
+				9074B57F2195C8AC00250BF5 /* Present.swift in Sources */,
 				C98BCA7A20A0417800892C28 /* TripViewController.swift in Sources */,
 				C98BCA7820A0416D00892C28 /* CategoryViewController.swift in Sources */,
 				C98BCA7E20A0418700892C28 /* BookViewController.swift in Sources */,
-				C98BCA8620A041F900892C28 /* ToyService.swift in Sources */,
+				C98BCA8620A041F900892C28 /* PresentService.swift in Sources */,
 				C98BCA8420A041EC00892C28 /* Book.swift in Sources */,
 				C98BCA5F20A0389F00892C28 /* AppDelegate.swift in Sources */,
 				C98BCA8020A041B400892C28 /* Trip.swift in Sources */,

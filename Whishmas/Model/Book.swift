@@ -12,3 +12,13 @@ struct Book {
     var title = ""
     var author = ""
 }
+
+extension Book: Present {
+    var cellTitle: String {
+        return title
+    }
+
+    var description: String {
+        return author
+    }
+}

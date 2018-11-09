@@ -21,7 +21,7 @@ class BookViewController: UIViewController {
 
         let book = Book(title: title, author: author)
 
-        // TODO: Add book to list
+        PresentService.shared.add(present: book)
 
         performSegue(withIdentifier: "bookToListUnwind", sender: nil)
     }

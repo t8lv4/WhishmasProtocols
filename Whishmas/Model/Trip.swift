@@ -13,3 +13,13 @@ struct Trip {
     var destination = ""
     var durationInDays = 0
 }
+
+extension Trip: Present {
+    var cellTitle: String {
+        return departure + destination
+    }
+
+    var description: String {
+        return String(durationInDays)
+    }
+}
