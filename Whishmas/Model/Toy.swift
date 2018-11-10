@@ -14,6 +14,10 @@ struct Toy {
 }
 
 extension Toy: Present {
+    var icon: String {
+        return "ToyIcon"
+    }
+
     var cellTitle: String {
         return name
     }

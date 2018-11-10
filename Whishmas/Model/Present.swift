@@ -11,4 +11,5 @@ import Foundation
 protocol Present {
     var cellTitle: String { get }
     var description: String { get }
+    var icon: String { get }
 }

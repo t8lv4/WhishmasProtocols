@@ -15,8 +15,12 @@ struct Trip {
 }
 
 extension Trip: Present {
+    var icon: String {
+        return "TripIcon"
+    }
+
     var cellTitle: String {
-        return departure + destination
+        return departure + "-" + destination
     }
 
     var description: String {
