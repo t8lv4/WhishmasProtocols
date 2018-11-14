@@ -18,4 +18,8 @@ class PresentService {
     func add(present: Present) {
         presents.append(present)
     }
+
+    func removePresent(at index: Int) {
+        presents.remove(at: index)
+    }
 }

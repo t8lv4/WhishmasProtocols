@@ -20,7 +20,7 @@ class ListViewController: UIViewController {
     @IBAction func unwindToListVC(segue: UIStoryboardSegue) {}
 }
 
-extension ListViewController: UITableViewDataSource, UITableViewDelegate {
+extension ListViewController: UITableViewDataSource {
     func numberOfSections(in tableView: UITableView) -> Int {
         return 1
     }
@@ -41,5 +41,16 @@ extension ListViewController: UITableViewDataSource, UITableViewDelegate {
 //        cell.detailTextLabel?.text = present.description
 
         return cell
+    }
+}
+
+extension ListViewController: UITableViewDelegate {
+    func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
+        if editingStyle == .delete {
+            // delete data
+            PresentService.shared.removePresent(at: indexPath.row)
+            // delete cell
+            tableView.deleteRows(at: [indexPath], with: .automatic)
+        }
     }
 }
